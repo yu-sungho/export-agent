@@ -28,6 +28,10 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     // tag::actuator[]
     compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile("ch.qos.logback:logback-classic:1.1.2")
+    compile("ch.qos.logback:logback-core:1.1.2")
+    compile("org.slf4j:slf4j-api:1.7.7")
+    compile('org.jsoup:jsoup:1.7.3')
     // end::actuator[]
     // tag::tests[]
     testCompile("org.springframework.boot:spring-boot-starter-test")
